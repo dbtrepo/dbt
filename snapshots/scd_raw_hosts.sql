@@ -9,4 +9,4 @@
     )
 }}
 select * FROM {{ source('airbnb', 'hosts') }}
-{% endsnapshot %
+{% endsnapshot %}
